@@ -4,12 +4,12 @@ import { getFirestore, /*connectFirestoreEmulator*/  } from "firebase/firestore"
 import { getStorage, /*connectStorageEmulator*/ } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+  apiKey: "AIzaSyA94NIVqQrfCk5m34OE9p8Ho6h3epuC-e8",
+  authDomain: "tic-tac-toe-testing-cc84f.firebaseapp.com",
+  projectId: "tic-tac-toe-testing-cc84f",
+  storageBucket: "tic-tac-toe-testing-cc84f.firebasestorage.app",
+  messagingSenderId: "725947059339",
+  appId: "1:725947059339:web:d78e00fa9278b48a52588e"
 };
 
 const app = initializeApp(firebaseConfig);

@@ -88,3 +88,12 @@ body {
 .game-info {
   margin-left: 20px;
 }
+
+.user {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-info {
+  margin-left: 20px;
+}
